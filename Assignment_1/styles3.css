@@ -1,0 +1,220 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar-brand img {
+    width: 30px;
+    margin-right: 8px;
+    filter: brightness(0) saturate(90%) invert(26%) sepia(85%) saturate(6300%) hue-rotate(357deg) brightness(80%) contrast(102%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 10px 80px;
+    background:none;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+.imgGradient
+{
+    width: 100%;
+    height: 680px;
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(102,102,102,0.3) 35%, rgba(255,255,255,0.1652731160823705) 100%);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(196, 0, 0);
+}
+
+.navbar-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+/* Hero Section Styling */
+.hero-section {
+    background-image: url('https://b.zmtcdn.com/data/pictures/chains/0/19121480/3b7c2f5842c2bea00ed085b280b3cf9b.jpg');
+    filter: drop-shadow(10px);
+    background-size: cover;
+    height: 680px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content
+{
+    margin: 4rem;
+    filter: brightness(100%);
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: -2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.order-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 25px;
+}
+
+
+
+
+/* Menu Section Styling */
+.menu-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.menu-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+   
+    margin-bottom: 30px;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.outercard{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    border: 1px solid rgba(35, 30, 30,0.2);
+    border-radius: 5px;
+}
+.cardback{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 175px;
+    border-top-right-radius: 175px;
+    background: rgb(250,147,0);
+    background: radial-gradient(circle, rgba(250,147,0,1) 3%, rgba(255,184,0,1) 23%, rgba(255,203,88,1) 68%);
+}
+
+.foodImage
+{
+    width: 250px;
+    height: 200px;
+}
+
+
+
+.foodHeadContainer
+{
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foodHead{
+
+    width: 150px;
+    text-align: left;
+    color: #333;
+}
+
+.foodHead p{
+    font-weight: 800;
+}
+
+.foodPrice
+{
+    width: 100px;
+    font-weight: 800;
+}
+
+.addAndRatingContainer
+{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addAndRatingContainer a{
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+
+.rating {
+    color: brown;
+    font-weight: 600;
+
+}
+
+.rating img{
+    color: brown;
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255,184,0,1);
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    font-weight: 700;
+}
